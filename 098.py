@@ -7,7 +7,8 @@ def maior(*valor):
     print('os valores são: ', end='')
     for valores in valor:
         print(valores, end='  ')
-    print(f' um total de {len(valor)} ao todo.')
-    print(f'o maior valor informado foi {max(valor)}')
+    print(f'um total de {len(valor)} ao todo.')
+    print(f'o maior valor informado foi {max(valor)}\nO menor valor informado foi {min(valor)}')
 
 maior(2,3,4,3)
+maior(100,22,33,4,55)
